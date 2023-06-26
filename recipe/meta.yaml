@@ -1,5 +1,5 @@
 {% set name = "pycoxmunk" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pycoxmunk-{{ version }}.tar.gz
-  sha256: 88eff51543699e208d3c2d9e7937b864ac820cf33ddc622e9c071b93952b63c3
+  sha256: 8860d47c5bb0e8524e646d65a64527bc60cda27158efe083708a2a4ef4c1a41f
 
 build:
   noarch: python
